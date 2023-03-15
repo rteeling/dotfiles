@@ -83,6 +83,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+source $HOME/antigen.zsh
+antigen init .antigenrc
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
